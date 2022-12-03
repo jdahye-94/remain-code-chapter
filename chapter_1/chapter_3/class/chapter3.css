@@ -1,0 +1,49 @@
+/* CSS 초기화 */
+* {
+    padding: 0;
+    border: 0;
+    margin: 0;
+}
+a {text-decoration: none;}
+li {list-style: none;}
+
+/*
+    [ 클래스 네이밍 규칙 ]
+    1) 숫자로 시작할 수 없다
+    2) 숫자로만 구성될 수 없다
+    3) 띄어쓰기 허용하지 않는다 
+
+    [ CSS 우선 순위 ]
+    1) 태그 1점
+    2) 클래스 10점
+    - 동일점수일 경우 하단 코드가 적용된다
+*/
+
+
+.eventpd{
+    padding: 30;
+    border: 3px;
+    margin: 30;
+}
+
+.eventpd-title{
+    color: tomato;
+    padding-bottom: 30px;
+}
+
+.eventpd-text{
+    color: #000;
+}
+
+
+.eventpd-price{
+    text-decoration: line-through;
+}
+
+
+
+
+
+
+
+

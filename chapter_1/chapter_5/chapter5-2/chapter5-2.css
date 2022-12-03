@@ -1,0 +1,67 @@
+* {
+    padding: 0;
+    border: 0;
+    margin: 0;
+}
+a {text-decoration: none;}
+li {list-style: none;}
+
+.best-container-outer {
+    background-image: url(./img/sample1.jpg);
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+    background-attachment: fixed;
+    padding: 200px 0;
+}
+
+.best-container-outer-2 {
+    background-image: url(./img/sample2.jpg);
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+    background-attachment: fixed;
+    padding: 200px 0;
+}
+
+/*
+    [ 배경 이미지 불러오기 ]
+    background-image: url(이미지 경로);
+
+    [ 배경 이미지 반복 ]
+    background-repeat: no-repeat;
+    background-repeat: repeat-x;
+    background-repeat: repeat-y;
+
+    [ 배경 이미지 위치 ]
+    background-position: top left;
+    background-position: center center;
+    background-position: bottom right;
+
+    [ 배겨 이미지 크기 ]
+    background-size: cover;
+
+    [ 배경 고정 ]
+    background-attachment: fixed;
+
+*/
+
+.best-container {
+    width: 1200px;
+    border: 10px solid red;
+    margin: 0 auto;
+}
+.best-container::after {
+    content: "";
+    display: block;
+    clear: both;
+}
+.item {
+    width: 380px;
+    height: 200px;
+    margin: 10px;
+    background-color: cornflowerblue;
+    float: left;
+}
+
+

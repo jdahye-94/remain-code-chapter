@@ -1,0 +1,28 @@
+/* CSS 초기화 */
+* {
+    padding: 0;
+    border: 0;
+    margin: 0;
+}
+a {text-decoration: none;}
+li {list-style: none;}
+
+/* 
+.recommend {border: 10px solid black;}
+.recommend .recommend-heading {border: 10px solid yellow;}
+.recommend .recommend-item-container {border: 10px solid plum;} 
+*/
+/* .recommend .recommend-item {border: 10px solid blue;}
+.recommend .recommend-item-heading {border: 10px solid red;}
+.recommend .recommend-item-price {border: 10px solid cyan;}
+.recommend .recommend-item-thum {border: 10px solid orange;} */
+
+
+body {background-color: lightgrey;}
+.recommend .recommend-item {
+    width: 380px;
+    margin: 10px;
+    background-color: #ffffff;
+}
+.recommend .recommend-item-heading {padding: 40px 40px 10px 40px;}
+.recommend .recommend-item-price {padding: 0px 40px;}

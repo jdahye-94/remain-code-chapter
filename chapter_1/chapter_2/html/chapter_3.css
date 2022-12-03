@@ -1,0 +1,24 @@
+h1{
+    padding: 24px 36px;
+    text-align: center;
+    width: 300px;
+    background-color: #000;
+    color: #fff;;
+    font-size: 40px;
+    border-radius: 999px;
+}
+
+
+body{
+    font-family: 'Playfair Display', serif;
+}
+
+    /* 
+    만약에 서체가 나오지 않을 때 사용자의 기준에서 세리프체만 나올 수 있게 해주세요.
+    맨뒤에 serif, sans-serif. 둘 중 하나는 써야 웹표준이 됨
+    " 쌍따옴표를 쓰고 쓰지않는것의 구분. 하나의 단어라고 쓰는 것
+    ' 인코딩 문제를 해결하기 위해 일반따옴표를 쓰게 되는 것
+    영문 폰트이므로 "' 를 안써도 된다.
+    
+    박스모델 수치써져있는거? ui 디자이너한테 꼭 필요한 것
+    */

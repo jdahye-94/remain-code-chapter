@@ -1,0 +1,30 @@
+* {
+    padding: 0;
+    border: 0;
+    margin: 0;
+}
+a { text-decoration: none; }
+li { list-style: none; }
+
+.globalnav {border: 10px solid red;}
+.globalnav .globalnav-container {border: 10px solid blue;}
+.globalnav .globalnav-logo {border: 10px solid aqua;}
+.globalnav .globalnav-top {border: 10px solid yellow;}
+.globalnav .globalnav-bottom {border: 10px solid yellow;}
+.globalnav .globalnav-menu {border: 10px solid green;}
+
+
+.globalnav-container{
+    width: 1180px;
+    margin: 0 auto;
+}
+
+.globalnav .globalnav-menu-container::after{
+    content: "";
+    display: block;
+    clear: both;
+}
+
+.globalnav .globalnav-menu{float: right;}
+
+.globalnav .globalnav-logo{float: left;}

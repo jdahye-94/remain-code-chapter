@@ -1,0 +1,48 @@
+/*
+li {
+    list-style: square;
+    list-style: disc;
+    list-style: circle;
+    list-style: none;
+}
+
+a {
+    text-decoration: underline;
+    text-decoration: line-through;
+    text-decoration: overline;
+    text-decoration: none;
+}
+*/
+
+/*
+    [단위의 개념]
+
+    % = 직계부모의 상대적 크기
+    픽셀 값으로 먹었을 때, 픽셀에 대한 퍼센테이지로 설정됨.
+    auto = 자기의 콘텐츠 크기만큼 출력
+*/
+
+p {
+    /* 배경색을 넣어주세요 */
+    background-color: aqua;
+    /* 기본속성을 작성해 주세요 */
+    width: 50%;
+    height: auto;
+
+}
+
+a {
+    /* 배경색을 넣어주세요 */
+    background-color:black;
+
+    /* 기본속성을 작성해 주세요 */
+    width: auto;
+    height: auto;
+    color: white;
+}
+
+
+
+
+
+

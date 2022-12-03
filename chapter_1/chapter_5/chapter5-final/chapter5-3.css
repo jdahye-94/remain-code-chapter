@@ -1,0 +1,51 @@
+* {
+    padding: 0;
+    border: 0;
+    margin: 0;
+}
+a {text-decoration: none;}
+li {list-style: none;}
+ 
+
+.container-outer {
+    padding: 200px 0;
+    background-color: orange;
+    background-image: url(./img/sample1.jpg);
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+}
+.container {
+    width: 1200px;
+    margin: 0 auto;
+    border: 10px solid cornflowerblue;
+}
+.container::after {
+    content: "";
+    display: block;
+    clear: both;
+}
+.item {
+    width: 380px;
+    height: 200px;
+    margin: 10px;
+    background-color: cornflowerblue;
+    float: left;
+    position: relative;
+}
+.stamp {
+    width: 100px;
+    border: 5px solid yellow;
+
+    position: absolute;
+    top: -15px;
+    right: -15px;
+} 
+
+
+
+
+
+
+
+

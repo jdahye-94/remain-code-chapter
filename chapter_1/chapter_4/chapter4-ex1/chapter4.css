@@ -1,0 +1,39 @@
+/* CSS 초기화 */
+* {
+    padding: 0;
+    border: 0;
+    margin: 0;
+}
+a {text-decoration: none;}
+li {list-style: none;}
+
+/*
+    [ 가상태그 ]
+
+    1) 가상태그는 before, after 두 가지 종류가 있음
+    2) "::"으로 시작
+    3) "::"을 기준으로 좌, 우에 띄어쓰기 허용하지 않음
+    4) inline 성별
+    5) content: ""; 필수 속성
+*/
+
+
+
+.a::after{
+    content: "가상태그 만들기 미션 1 완료";
+    border: 10px solid violet;
+    display: block;
+}
+
+
+.b::after{
+    content: "가상태그 만들기 미션 2 완료";
+    border: 10px solid rebeccapurple;
+    display: block;
+}
+
+
+
+.a{border: 10px solid red;}
+.b{border: 10px solid black;}
+.b .c{border: 10px solid blue;}

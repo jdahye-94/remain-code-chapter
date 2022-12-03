@@ -1,0 +1,55 @@
+/*css 초기화*/
+
+* {
+    padding: 0;
+    border: 0;
+    margin: 0;
+}
+
+a {text-decoration: none;}
+
+li {list-style: none;}
+
+
+
+p {
+    background-color: coral;
+    width: 400px;
+    height: auto;
+
+    padding: 50px;
+    border: 10px solid blue;
+    margin: 50px;
+}
+
+a {
+    /* background-color: yellow; */
+    padding: 20px;
+    border: 10px solid red;
+    margin: 20px;
+}
+
+/*
+    [ padding 사용법 ]
+    padding-top: 50px;
+    padding-right: 50px;
+    padding-bottom: 50px;
+    padding-left: 50px;
+
+    padding: 50px 0px 50px 0px;
+    padding: 50px 0px;
+    padding: 50px;
+
+    [ border 사용법 ]
+    border-top: 10px solid blue;
+    border-right: 10px solid blue;
+    border-bottom: 10px solid blue;
+    border-left: 10px solid blue;
+
+    border: 10px solid blue;
+    border: 10px dotted blue;
+    border: 10px dashed blue;
+
+    [ margin 사용법 ]
+    padding과 같음
+*/

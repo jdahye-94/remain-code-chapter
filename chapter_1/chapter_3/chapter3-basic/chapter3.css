@@ -1,0 +1,42 @@
+/*
+li {
+    list-style: square;
+    list-style: disc;
+    list-style: circle;
+    list-style: none;
+}
+
+a {
+    text-decoration: underline;
+    text-decoration: line-through;
+    text-decoration: overline;
+    text-decoration: none;
+}
+*/
+
+/*
+    [단위의 개념]
+
+    % = 직계부모의 상대적 크기
+    auto = 자기의 콘텐츠 크기만큼 출력
+*/
+
+p {
+    /* 배경색을 넣어주세요 */
+
+    /* 기본속성을 작성해 주세요 */
+
+}
+
+a {
+    /* 배경색을 넣어주세요 */
+
+    /* 기본속성을 작성해 주세요 */
+    
+}
+
+
+
+
+
+

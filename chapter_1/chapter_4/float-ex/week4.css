@@ -1,0 +1,41 @@
+/* CSS RESET */
+* {
+    padding: 0;
+    border: 0;
+    margin: 0;
+}
+a {text-decoration: none;}
+li {list-style: none;}
+
+.box {
+    background-color: cornflowerblue;
+    width: 380px;
+    height: 200px;
+    margin: 10px;
+    float: left;
+}
+
+p {
+    background-color: crimson;
+    clear: both;
+}
+
+.item {
+    border: 10px solid black;
+}
+
+.item li {
+    background-color: cadetblue;
+    width: 380px;
+    height: 200px;
+    margin: 10px;
+    float: left;
+}
+h2 {background-color: crimson;}
+
+
+.item::after{
+    content: "";
+    clear: both;
+    display: block;
+}
